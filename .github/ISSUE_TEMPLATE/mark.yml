@@ -40,8 +40,6 @@ body:
       label: 판단 근거
       description: 왜 그렇게 판단했는지 적습니다. 나중에 이 이슈만 보고도 알 수 있어야 합니다.
       placeholder: 2019년에 끝난 시뮬레이션 결과이고 담당자가 퇴사했습니다. 원본은 사내 NAS에 있습니다.
-    validations:
-      required: true
 
   - type: input
     id: size
