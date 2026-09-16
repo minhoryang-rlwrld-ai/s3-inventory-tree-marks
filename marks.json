@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:52:44Z",
+  "generated_at": "2026-09-16T11:04:44Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,8 +10,8 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 12,
-    "marked": 12,
+    "issues": 13,
+    "marked": 13,
     "needs_triage": 0,
     "duplicates_closed": 0,
     "commands_applied": 1,
@@ -78,7 +78,7 @@
       "state": "backup-requested",
       "issue": 9,
       "actor": "joocjun",
-      "updated_at": "2026-09-16T10:51:04Z",
+      "updated_at": "2026-09-16T10:59:58Z",
       "command_at": "2026-09-16T10:50:52Z",
       "comments": 0,
       "closed": false,
@@ -134,7 +134,7 @@
       "state": "deletable",
       "issue": 12,
       "actor": "mydulee06",
-      "updated_at": "2026-09-16T10:52:34Z",
+      "updated_at": "2026-09-16T10:52:44Z",
       "command_at": "2026-09-16T10:52:34Z",
       "comments": 0,
       "closed": false,
@@ -183,6 +183,20 @@
       "at_marking": {
         "size": "826 KiB",
         "count": "18개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
+    "rlwrld/sam/": {
+      "state": "deletable",
+      "issue": 13,
+      "actor": "almightychang",
+      "updated_at": "2026-09-16T11:04:35Z",
+      "command_at": "2026-09-16T11:04:35Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "1.5 TiB",
+        "count": "2,594,017개",
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     }
