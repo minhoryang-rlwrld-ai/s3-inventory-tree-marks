@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:10:10Z",
+  "generated_at": "2026-09-16T04:17:01Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,19 +10,33 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 1,
-    "marked": 1,
+    "issues": 2,
+    "marked": 2,
     "needs_triage": 0,
     "duplicates_closed": 0,
     "commands_applied": 1,
     "titles_fixed": 0
   },
   "marks": {
+    ".container-cache/": {
+      "state": "deletable",
+      "issue": 2,
+      "actor": "minhoryang-rlwrld-ai",
+      "updated_at": "2026-09-16T04:16:51Z",
+      "command_at": "2026-09-16T04:16:51Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "24.3 GiB",
+        "count": "106,011개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
     "rlwrld/minho_ryang/": {
       "state": "deletable",
       "issue": 1,
       "actor": "minhoryang-rlwrld-ai",
-      "updated_at": "2026-09-16T04:10:00Z",
+      "updated_at": "2026-09-16T04:10:10Z",
       "command_at": "2026-09-16T04:10:00Z",
       "comments": 0,
       "closed": false,
