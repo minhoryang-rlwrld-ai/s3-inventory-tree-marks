@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:51:05Z",
+  "generated_at": "2026-09-16T10:52:25Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,8 +10,8 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 9,
-    "marked": 9,
+    "issues": 11,
+    "marked": 11,
     "needs_triage": 0,
     "duplicates_closed": 0,
     "commands_applied": 2,
@@ -60,11 +60,25 @@
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
+    "foundry/.venv/": {
+      "state": "deletable",
+      "issue": 10,
+      "actor": "minhoryang-rlwrld-ai",
+      "updated_at": "2026-09-16T10:52:07Z",
+      "command_at": "2026-09-16T10:52:07Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "1.2 GiB",
+        "count": "20,755개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
     "ns1/datasets/edrp/": {
       "state": "backup-requested",
       "issue": 9,
       "actor": "joocjun",
-      "updated_at": "2026-09-16T10:50:52Z",
+      "updated_at": "2026-09-16T10:51:04Z",
       "command_at": "2026-09-16T10:50:52Z",
       "comments": 0,
       "closed": false,
@@ -88,6 +102,20 @@
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
+    "rlwrld-unified-checkpoints/duke/": {
+      "state": "deletable",
+      "issue": 11,
+      "actor": "mydulee06",
+      "updated_at": "2026-09-16T10:52:12Z",
+      "command_at": "2026-09-16T10:52:12Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "15.7 GiB",
+        "count": "3,146개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
     "rlwrld/aaron_jeong/": {
       "state": "deletable",
       "issue": 6,
@@ -106,7 +134,7 @@
       "state": "deletable",
       "issue": 8,
       "actor": "minhoryang-rlwrld-ai",
-      "updated_at": "2026-09-16T10:50:44Z",
+      "updated_at": "2026-09-16T10:51:05Z",
       "command_at": "2026-09-16T10:50:44Z",
       "comments": 0,
       "closed": false,
