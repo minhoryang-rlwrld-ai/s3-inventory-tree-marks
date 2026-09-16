@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:19:10Z",
+  "generated_at": "2026-09-16T08:56:54Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -14,7 +14,7 @@
     "marked": 4,
     "needs_triage": 0,
     "duplicates_closed": 0,
-    "commands_applied": 2,
+    "commands_applied": 0,
     "titles_fixed": 0
   },
   "marks": {
@@ -36,7 +36,7 @@
       "state": "deletable",
       "issue": 4,
       "actor": "minhoryang-rlwrld-ai",
-      "updated_at": "2026-09-16T04:19:00Z",
+      "updated_at": "2026-09-16T04:19:09Z",
       "command_at": "2026-09-16T04:19:00Z",
       "comments": 0,
       "closed": false,
@@ -50,7 +50,7 @@
       "state": "deletable",
       "issue": 3,
       "actor": "minhoryang-rlwrld-ai",
-      "updated_at": "2026-09-16T04:18:22Z",
+      "updated_at": "2026-09-16T04:19:10Z",
       "command_at": "2026-09-16T04:18:22Z",
       "comments": 0,
       "closed": false,
