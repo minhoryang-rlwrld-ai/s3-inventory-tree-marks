@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:17:01Z",
+  "generated_at": "2026-09-16T04:19:10Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,11 +10,11 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 2,
-    "marked": 2,
+    "issues": 4,
+    "marked": 4,
     "needs_triage": 0,
     "duplicates_closed": 0,
-    "commands_applied": 1,
+    "commands_applied": 2,
     "titles_fixed": 0
   },
   "marks": {
@@ -22,13 +22,41 @@
       "state": "deletable",
       "issue": 2,
       "actor": "minhoryang-rlwrld-ai",
-      "updated_at": "2026-09-16T04:16:51Z",
+      "updated_at": "2026-09-16T04:17:01Z",
       "command_at": "2026-09-16T04:16:51Z",
       "comments": 0,
       "closed": false,
       "at_marking": {
         "size": "24.3 GiB",
         "count": "106,011개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
+    ".foundry-cache/": {
+      "state": "deletable",
+      "issue": 4,
+      "actor": "minhoryang-rlwrld-ai",
+      "updated_at": "2026-09-16T04:19:00Z",
+      "command_at": "2026-09-16T04:19:00Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "220 GiB",
+        "count": "61,546개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
+    ".tools/": {
+      "state": "deletable",
+      "issue": 3,
+      "actor": "minhoryang-rlwrld-ai",
+      "updated_at": "2026-09-16T04:18:22Z",
+      "command_at": "2026-09-16T04:18:22Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "234 MiB",
+        "count": "9,314개",
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
