@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:49:05Z",
+  "generated_at": "2026-09-16T10:49:32Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,8 +10,8 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 5,
-    "marked": 5,
+    "issues": 6,
+    "marked": 6,
     "needs_triage": 0,
     "duplicates_closed": 0,
     "commands_applied": 1,
@@ -64,13 +64,27 @@
       "state": "deletable",
       "issue": 5,
       "actor": "aaron-rlwrld",
-      "updated_at": "2026-09-16T10:48:54Z",
+      "updated_at": "2026-09-16T10:49:04Z",
       "command_at": "2026-09-16T10:48:54Z",
       "comments": 0,
       "closed": false,
       "at_marking": {
         "size": "1011 GiB",
         "count": "774개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
+    "rlwrld/aaron_jeong/": {
+      "state": "deletable",
+      "issue": 6,
+      "actor": "aaron-rlwrld",
+      "updated_at": "2026-09-16T10:49:20Z",
+      "command_at": "2026-09-16T10:49:20Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "2.5 TiB",
+        "count": "1,394,282개",
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
