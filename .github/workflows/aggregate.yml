@@ -1,0 +1,47 @@
+name: 마킹 집계
+
+on:
+  # 마킹 직후에 바로 반영되도록 이슈 변화에 걸어 둔다.
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled, deleted]
+  # 놓친 변화를 메우는 안전망.
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+# 여러 이벤트가 몰려도 마지막 하나만 끝까지 돌린다.
+concurrency:
+  group: aggregate-marks
+  cancel-in-progress: true
+
+permissions:
+  contents: write   # marks.json 커밋
+  issues: write     # 라벨 붙이기, 중복 닫기
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 이슈 집계
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/aggregate.mjs
+
+      - name: 변경되었으면 커밋
+        run: |
+          if git diff --quiet -- marks.json; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add marks.json
+          git commit -m "마킹 집계 갱신"
+          git push

@@ -1,0 +1,13 @@
+{
+  "generated_at": "1970-01-01T00:00:00Z",
+  "repo": "",
+  "title_prefix": "mark: ",
+  "states": ["deletable", "keep", "backup-requested", "backed-up"],
+  "counts": {
+    "issues": 0,
+    "marked": 0,
+    "needs_triage": 0,
+    "duplicates_closed": 0
+  },
+  "marks": {}
+}

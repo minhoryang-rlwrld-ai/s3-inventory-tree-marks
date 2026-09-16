@@ -1,0 +1,70 @@
+name: 디렉터리 마킹
+description: 어느 디렉터리를 어떻게 할지 기록합니다.
+title: "mark: "
+labels: ["mark"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        보통 뷰어의 상태 버튼이 이 폼을 채운 채로 열어 줍니다. 값이 이미 들어 있다면
+        **판단 근거**만 적고 제출하세요.
+
+        제목은 `mark: <디렉터리 경로>` 형태여야 합니다. 집계 워크플로가 제목을 보고
+        대상 디렉터리를 알아내며, 뷰어의 댓글 위젯도 같은 제목으로 스레드를 찾습니다.
+
+  - type: input
+    id: path
+    attributes:
+      label: 경로
+      description: 슬래시로 끝나는 디렉터리 경로입니다. 제목에 들어간 경로와 같아야 합니다.
+      placeholder: projects/legacy-sim/
+    validations:
+      required: true
+
+  - type: dropdown
+    id: state
+    attributes:
+      label: 판단
+      description: 괄호 앞의 값이 그대로 라벨이 됩니다.
+      options:
+        - "/deletable (백업하지 않고 지워도 됨)"
+        - "/keep (보관해야 하므로 지우면 안 됨)"
+        - "/backup-requested (백업 요청)"
+        - "/backed-up (백업 완료)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 판단 근거
+      description: 왜 그렇게 판단했는지 적습니다. 나중에 이 이슈만 보고도 알 수 있어야 합니다.
+      placeholder: 2019년에 끝난 시뮬레이션 결과이고 담당자가 퇴사했습니다. 원본은 사내 NAS에 있습니다.
+    validations:
+      required: true
+
+  - type: input
+    id: size
+    attributes:
+      label: 용량
+      description: 마킹 시점의 용량입니다. 뷰어가 채웁니다.
+      placeholder: 5.3 TiB
+
+  - type: input
+    id: count
+    attributes:
+      label: 파일 수
+      placeholder: 299,726개
+
+  - type: input
+    id: viewer
+    attributes:
+      label: 뷰어 링크
+      placeholder: https://example.github.io/#/projects/legacy-sim/
+
+  - type: input
+    id: inventory
+    attributes:
+      label: 인벤토리 기준
+      description: 어느 시점의 인벤토리를 보고 판단했는지입니다.
+      placeholder: 2026-09-16 인벤토리
