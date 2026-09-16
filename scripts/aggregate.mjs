@@ -143,6 +143,16 @@ function classify(issue) {
     return { kind: 'conflict', path, form,
              reason: `상태 라벨이 ${states.join(', ')}로 겹칩니다` };
   }
+
+  // 판단이 입력 필드라 오타가 날 수 있다. 무언가 적혀 있는데 아는 명령이
+  // 아니면 조용히 넘기지 않는다. 무엇을 지울지 정하는 도구이기 때문이다.
+  const typed = (form[FIELD.state] || '').trim();
+  if (typed && !parseCommand(typed) && !states.length) {
+    return { kind: 'conflict', path, form,
+             reason: `판단 "${typed}"을 알아보지 못했습니다. `
+                   + `${STATES.map((x) => '/' + x).join(', ')} 중 하나여야 합니다` };
+  }
+
   return { kind: 'ok', path, form, state: states[0] || null, titleOk: fromTitle === path };
 }
 
