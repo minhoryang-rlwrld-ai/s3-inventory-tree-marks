@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:52:25Z",
+  "generated_at": "2026-09-16T10:52:44Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,11 +10,11 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 11,
-    "marked": 11,
+    "issues": 12,
+    "marked": 12,
     "needs_triage": 0,
     "duplicates_closed": 0,
-    "commands_applied": 2,
+    "commands_applied": 1,
     "titles_fixed": 0
   },
   "marks": {
@@ -64,7 +64,7 @@
       "state": "deletable",
       "issue": 10,
       "actor": "minhoryang-rlwrld-ai",
-      "updated_at": "2026-09-16T10:52:07Z",
+      "updated_at": "2026-09-16T10:52:24Z",
       "command_at": "2026-09-16T10:52:07Z",
       "comments": 0,
       "closed": false,
@@ -106,7 +106,7 @@
       "state": "deletable",
       "issue": 11,
       "actor": "mydulee06",
-      "updated_at": "2026-09-16T10:52:12Z",
+      "updated_at": "2026-09-16T10:52:25Z",
       "command_at": "2026-09-16T10:52:12Z",
       "comments": 0,
       "closed": false,
@@ -127,6 +127,20 @@
       "at_marking": {
         "size": "2.5 TiB",
         "count": "1,394,282개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
+    "rlwrld/duke/": {
+      "state": "deletable",
+      "issue": 12,
+      "actor": "mydulee06",
+      "updated_at": "2026-09-16T10:52:34Z",
+      "command_at": "2026-09-16T10:52:34Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "1.6 TiB",
+        "count": "2,418,660개",
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
