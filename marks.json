@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:49:59Z",
+  "generated_at": "2026-09-16T10:51:05Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,11 +10,11 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 7,
-    "marked": 7,
+    "issues": 9,
+    "marked": 9,
     "needs_triage": 0,
     "duplicates_closed": 0,
-    "commands_applied": 1,
+    "commands_applied": 2,
     "titles_fixed": 0
   },
   "marks": {
@@ -60,6 +60,20 @@
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
+    "ns1/datasets/edrp/": {
+      "state": "backup-requested",
+      "issue": 9,
+      "actor": "joocjun",
+      "updated_at": "2026-09-16T10:50:52Z",
+      "command_at": "2026-09-16T10:50:52Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "5.0 TiB",
+        "count": "21,778,029개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
     "rlwrld-unified-checkpoints/aaron_jeong/": {
       "state": "deletable",
       "issue": 5,
@@ -88,11 +102,25 @@
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
+    "rlwrld/loop_sa/": {
+      "state": "deletable",
+      "issue": 8,
+      "actor": "minhoryang-rlwrld-ai",
+      "updated_at": "2026-09-16T10:50:44Z",
+      "command_at": "2026-09-16T10:50:44Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "401 KiB",
+        "count": "13개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
     "rlwrld/mason_yoon/": {
       "state": "deletable",
       "issue": 7,
       "actor": "MinsungYoon",
-      "updated_at": "2026-09-16T10:49:48Z",
+      "updated_at": "2026-09-16T10:49:59Z",
       "command_at": "2026-09-16T10:49:48Z",
       "comments": 0,
       "closed": false,
