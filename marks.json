@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:39:05Z",
+  "generated_at": "2026-09-17T13:55:59Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -274,7 +274,7 @@
       "state": "deletable",
       "issue": 16,
       "actor": "Seeun0113",
-      "updated_at": "2026-09-17T11:57:11Z",
+      "updated_at": "2026-09-17T13:55:48Z",
       "command_at": "2026-09-17T11:06:00Z",
       "comments": 0,
       "closed": false,
