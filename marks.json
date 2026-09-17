@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T12:18:00Z",
+  "generated_at": "2026-09-17T12:18:50Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,8 +10,8 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 18,
-    "marked": 18,
+    "issues": 19,
+    "marked": 19,
     "needs_triage": 0,
     "duplicates_closed": 0,
     "commands_applied": 1,
@@ -172,11 +172,25 @@
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
+    "rlwrld/jaehyun/": {
+      "state": "deletable",
+      "issue": 19,
+      "actor": "kang-jaehyun",
+      "updated_at": "2026-09-17T12:18:36Z",
+      "command_at": "2026-09-17T12:18:36Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "2.4 TiB",
+        "count": "8,816,142개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
     "rlwrld/jaehyun/RLDX/ckpt/rldx1/finetuned/rldx1_img_ft_robodojo_sd05_bsz128_60k/": {
       "state": "backup-requested",
       "issue": 18,
       "actor": "kang-jaehyun",
-      "updated_at": "2026-09-17T12:17:46Z",
+      "updated_at": "2026-09-17T12:17:59Z",
       "command_at": "2026-09-17T12:17:46Z",
       "comments": 0,
       "closed": false,
