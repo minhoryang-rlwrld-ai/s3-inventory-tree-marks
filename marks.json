@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:59:50Z",
+  "generated_at": "2026-09-17T08:48:10Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -10,11 +10,11 @@
   ],
   "triage": {},
   "counts": {
-    "issues": 13,
-    "marked": 13,
+    "issues": 14,
+    "marked": 14,
     "needs_triage": 0,
     "duplicates_closed": 0,
-    "commands_applied": 0,
+    "commands_applied": 1,
     "titles_fixed": 0
   },
   "marks": {
@@ -57,6 +57,20 @@
       "at_marking": {
         "size": "234 MiB",
         "count": "9,314개",
+        "inventory": "2026-09-15T01-00Z 인벤토리"
+      }
+    },
+    "foundry/": {
+      "state": "deletable",
+      "issue": 14,
+      "actor": "almightychang",
+      "updated_at": "2026-09-17T08:47:59Z",
+      "command_at": "2026-09-17T08:47:59Z",
+      "comments": 0,
+      "closed": false,
+      "at_marking": {
+        "size": "1.2 GiB",
+        "count": "21,468개",
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     },
