@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:06:14Z",
+  "generated_at": "2026-09-17T11:55:34Z",
   "repo": "minhoryang-rlwrld-ai/s3-inventory-tree-marks",
   "title_prefix": "mark: ",
   "states": [
@@ -8,13 +8,18 @@
     "backup-requested",
     "backed-up"
   ],
-  "triage": {},
+  "triage": {
+    "rlwrld/seeun_sung/": {
+      "issue": 16,
+      "reason": "제목의 경로(rlwrld/seeun_sung/)와 폼의 경로(rlwrld/seeun_sung/data/)가 다릅니다"
+    }
+  },
   "counts": {
     "issues": 16,
-    "marked": 16,
-    "needs_triage": 0,
+    "marked": 15,
+    "needs_triage": 1,
     "duplicates_closed": 0,
-    "commands_applied": 1,
+    "commands_applied": 0,
     "titles_fixed": 0
   },
   "marks": {
@@ -225,20 +230,6 @@
       "at_marking": {
         "size": "1.5 TiB",
         "count": "2,594,017개",
-        "inventory": "2026-09-15T01-00Z 인벤토리"
-      }
-    },
-    "rlwrld/seeun_sung/": {
-      "state": "deletable",
-      "issue": 16,
-      "actor": "Seeun0113",
-      "updated_at": "2026-09-17T11:06:00Z",
-      "command_at": "2026-09-17T11:06:00Z",
-      "comments": 0,
-      "closed": false,
-      "at_marking": {
-        "size": "3.0 TiB",
-        "count": "172,597개",
         "inventory": "2026-09-15T01-00Z 인벤토리"
       }
     }
